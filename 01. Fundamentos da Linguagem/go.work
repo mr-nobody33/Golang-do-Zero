@@ -1,4 +1,4 @@
-go 1.20
+go 1.21.0
 
 use (
 	"./01. Pacotes"
@@ -6,4 +6,5 @@ use (
 	"./19. Testes Automatizados/1. Introdução"
 	"./19. Testes Automatizados/2. Teste Avançado"
 	"./23. Banco de Dados"
+	"./24. CRUD Básico"
 )
