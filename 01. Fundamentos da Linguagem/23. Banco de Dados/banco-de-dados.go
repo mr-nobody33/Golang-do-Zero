@@ -5,10 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	_ "github.com/go-sql-driver/mysql" // Importar de maneira implícia com o anderline na frente
+	_ "github.com/go-sql-driver/mysql"
 )
-
-// Pausa nos Estudos até instalação do Linux. AULA 3. CONECTANDO COM O BANCO DE DADOS
 
 func main() {
 	stringConexao := "golang:golang@/devbook?charset=utf8&parseTime=True&loc=Local"

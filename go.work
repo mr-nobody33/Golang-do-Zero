@@ -4,7 +4,6 @@ use (
 	"./01. Fundamentos da Linguagem/01. Pacotes"
 	"./01. Fundamentos da Linguagem/17. Aplicação de Linha de Comando"
 	"./01. Fundamentos da Linguagem/19. Testes Automatizados/1. Introdução"
-	"./01. Fundamentos da Linguagem/19. Testes Automatizados/2. Teste Avançado"
+	"./01. Fundamentos da Linguagem/19. Testes Automatizados/2. Teste Avançados"
 	"./01. Fundamentos da Linguagem/23. Banco de Dados"
-	"./01. Fundamentos da Linguagem/24. CRUD Básico"
 )
