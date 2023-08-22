@@ -39,7 +39,7 @@ func CriarUsuario(w http.ResponseWriter, r *http.Request) {
 	}
 	defer db.Close()
 
-	// PREPARE STATEMENT = Proteção contra SQL Inject
+	// PREPARE STATEMENT = Proteção contra SQL Injection
 	statement, erro := db.Prepare("insert into usuarios (nome, email) values (?, ?)")
 	if erro != nil {
 		w.Write([]byte("Erro ao criar o statement!"))
