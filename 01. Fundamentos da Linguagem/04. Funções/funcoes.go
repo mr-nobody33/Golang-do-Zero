@@ -22,7 +22,7 @@ func main() {
 	}
 
 	resultado := f("Texto da função 1")
-	fmt.Print(resultado)
+	fmt.Println(resultado)
 
 	resultadoSoma, _ := calculosMatematicos(10, 15)
 	fmt.Println(resultadoSoma)
